@@ -1,6 +1,6 @@
-# jtony-study-angular
-
+<h1># jtony-study-angular</h1>
+<br/><br/>
 Global Node.js Dependencies
-  npm install -g bower-installer
-  npm install http-server -g
-  npm install -g karma-cli
+<br/>   npm install -g bower-installer
+<br/>   npm install http-server -g
+<br/>   npm install -g karma-cli
