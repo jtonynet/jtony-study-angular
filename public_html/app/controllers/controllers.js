@@ -29,8 +29,6 @@ helloWorldControllers.controller('CustomerCtrl', ['$scope',
 helloWorldControllers.controller('AddCustomerCtrl', ['$scope', '$location', 
     function AddCustomerCtrl($scope, $location) {
         $scope.submit = function() {
-            alert('sifudio!');
-            console.log('ENVIANDO!');
             $location.path('/addedCustomer/'+$scope.cName+"/"+$scope.cCity);
         };
     }
