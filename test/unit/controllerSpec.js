@@ -38,5 +38,5 @@ describe('Hello World', function() {
            expect(scope.customerName).toEqual('Bobs Burger');
        });
     });
-    
+
 });

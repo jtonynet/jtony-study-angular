@@ -11,8 +11,7 @@ helloWorldApp.config(['$routeProvider', '$locationProvider',
             when('/', {
                templateUrl:"app/views/main.html",
                controller: 'MainCtrl'
-            })
-            .when('/show', {
+            }).when('/show', {
                templateUrl:"app/views/show.html",
                controller: 'ShowCtrl'
             }).when('/customer', {
